@@ -1,42 +1,51 @@
-Hey there! I’m **Reidho Satria** from the vibrant archipelago of **Indonesia**. 🌴
+Hey there! I'm **Vivek Bhandari** from **Uttarakhand, India**. 🇮🇳 🌴
 
-I’m a passionate tech enthusiast with a strong background in computer and network engineering. I love exploring new technologies, contributing to open-source projects, and creating engaging content. My interests range from GNU/Linux systems to Japanese Vtubers, and I’m always eager to learn and grow.
-
+I'm a cybersecurity enthusiast and **Web Security Researcher** focused on bug bounty hunting, CTFs, and security tool development. I enjoy exploring new technologies, building practical security tools, and learning by breaking and understanding systems.
 
 ## Education
-- **B.Sc. Computer Science**, Universitas Indo Global Mandiri (2024–ongoing)
-- **Computer & Network Engineering**, High School Diploma (2019–2022)
+
+* **B.Tech Computer Science & Engineering**, GBPIET Pauri, Uttarakhand (2022–2026, ongoing)
 
 ## Skills
-- **Languages:** Go, Python, C++, PHP, TypeScript, JavaScript, Rust. 
-- **Systems:** GNU/Linux, Windows, FreeBSD  
-- **Tools:** Docker, Git, Wireshark, nmap, ffuf, SQLMap, Burp Suite, Caido, Metasploit, Ghidra, AI-MCP, [rsxxd](https://github.com/elliottophellia/rsxxd)
-- **Spoken:** Indonesian, English, Japanese
+
+* **Languages:** Python, JavaScript
+* **Systems:** GNU/Linux
+* **Tools:** Docker, Git, Wireshark, Nmap, FFUF, SQLMap, Burp Suite, Nuclei, AI-MCP
 
 ## Experience
-- Internship at **Universitas Indo Global Mandiri** as a Network Security Engineer (2025-ongoing).
-  - Assisted in securing campus networks and implementing monitoring solutions.
-  - Successfully identified and mitigated several vulnerabilities in the university's web applications.
-  - Sucessfully stopped a DDoS attack targeting the university's public-facing services.
-- Freelance **Automation Developer** (2022–2024).
-  - Developed custom automation bots for various client needs.
-  - Built web automation tools for registration and data extraction tasks.
-- Freelance at **PT Datenshi Games Indonesia** as Front-end Developer & Whitelist Staff (2021–2022).
-  - Filtering players to identify and flag cheaters.
-  - Contributed to the creation of the whitelist website.
-- Maintaining **Fedora** packages repository for personal and community use.
-- Building **Aizawa** (client + webshell) for red-team labs and WAF/IDS bypass testing.
+
+* **Bug Bounty Hunter** at **HackerOne**
+
+  * Researching and reporting web application vulnerabilities.
+  * Practicing real-world web security testing and vulnerability research.
+
+* **Vice President** at **SHUNYA — Cybersecurity Club**
+
+  * Organizing cybersecurity activities, CTFs, and technical learning sessions.
+  * Collaborating with students on security research and projects.
+
+* **Building Niriksh**
+
+  * Developing a real-time, ML-based **network attack detection tool** for security monitoring and analysis.
 
 ## Goals
-- Reach fluent Japanese.
-- Ship open-source tools that other researchers actually keep using.
-- Write practical security notes others can follow without guesswork.
+
+* Ship open-source security tools that researchers actually use.
+* Write practical security notes and reports that others can follow without guesswork.
+* Continuously explore new technologies and improve as a security researcher.
+
 
 ## Featured Projects
 
-::github{repo="elliottophellia/aizawa"}
-::github{repo="elliottophellia/aizawa-webshell"}
+::github{repo="vivekbhandarisec/niriksh"}
+::github{repo="vivekbhandarisec/sinkhole"}
 
-## Let’s collaborate
-- Reach me at **[contact@rei.my.id](mailto:contact@rei.my.id)** or **[GitHub](https://github.com/elliottophellia)**.
+## CTF Writeups
+
+Browse my CTF writeups from competitions including JerseyCTF, KubSTU CTF, upCTF, BSidesCTF, UMassCTF, TAMU CTF, EHAX, EvilcorpCTF, Override.exe, ctf.ac, and UTCTF.
+
+- [CTF Writeups](/ctf-writeups/)
 - See more on the [Projects](/projects/) page.
+
+## Let's collaborate
+- Reach me at **[vivekbhandari.sec@gmail.com](mailto:vivekbhandari.sec@gmail.com)** or **[GitHub](https://github.com/vivekbhandarisec)**.

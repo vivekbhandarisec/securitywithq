@@ -18,34 +18,34 @@ const jsonLd = {
 			"@type": "AboutPage",
 			"@id": `${Astro.site}about/#page`,
 			"url": `${Astro.site}about/`,
-			"name": "About Reidho Satria",
-			"description": "About Reidho Satria – CTF Player and Cybersecurity Analyst based in Palembang, Indonesia.",
+			"name": "About Vivek Bhandari",
+			"description": "About Vivek Bhandari – Web Security Researcher, Bug Bounty Hunter, and CTF Player from Uttarakhand, India.",
 			"mainEntity": { "@id": `${Astro.site}#person` },
 		},
 		{
 			"@type": "Person",
 			"@id": `${Astro.site}#person`,
-			"name": "Reidho Satria",
+			"name": "Vivek Bhandari",
 			"url": Astro.site,
 			"image": `${Astro.site}favicon/favicon-light-192.png`,
-			"jobTitle": "CTF Player & Cybersecurity Analyst",
+			"jobTitle": "Web Security Researcher & Bug Bounty Hunter",
 			"sameAs": [
-				"https://twitter.com/elliottophellia",
-				"https://github.com/elliottophellia",
-				"https://instagram.com/elliottophellia",
-				"https://linkedin.com/in/elliottophellia",
+				"https://x.com/viveksecurity",
+				"https://github.com/vivekbhandarisec",
+				"https://www.linkedin.com/in/vivekbhandarisec/",
+				"https://www.instagram.com/qthevar",
 			],
 		},
 	],
 };
 ---
 
-<MainGridLayout title="About" description="About Reidho Satria">
+<MainGridLayout title="About" description="About Vivek Bhandari">
 	<script is:inline slot="head" type="application/ld+json" set:html={JSON.stringify(jsonLd)}></script>
 	<div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative mb-4">
 		<div class="card-base z-10 px-6 md:px-9 py-6 relative w-full">
 			<div class="text-sm font-semibold text-[var(--primary)] uppercase tracking-wide">About</div>
-			<h1 class="text-3xl md:text-4xl font-bold text-90 mb-3 leading-snug"><span class="name-glitch" title="/ˈreɪ.doʊ sæt.ri.ə/"><span class="name-original">Reidho Satria</span><span class="name-phonetic" aria-hidden="true">/ˈreɪ.doʊ sæt.ri.ə/</span></span></h1>
+			<h1 class="text-3xl md:text-4xl font-bold text-90 mb-3 leading-snug"><span class="name-glitch" title="Q.THE.VAR"><span class="name-original">Vivek Bhandari</span><span class="name-phonetic" aria-hidden="true">Q.THE.VAR</span></span></h1>
 			<Markdown class="mt-2">
 				<Content />
 			</Markdown>

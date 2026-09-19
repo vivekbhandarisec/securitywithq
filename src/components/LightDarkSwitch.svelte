@@ -12,6 +12,10 @@ import type { LIGHT_DARK_MODE } from "@/types/config.ts";
 const seq: LIGHT_DARK_MODE[] = [LIGHT_MODE, DARK_MODE, AUTO_MODE];
 let mode: LIGHT_DARK_MODE = $state(AUTO_MODE);
 
+$effect(() => {
+	if (mode) applyThemeToDocument(mode);
+});
+
 onMount(() => {
 	mode = getStoredTheme();
 	const darkModePreference = window.matchMedia("(prefers-color-scheme: dark)");

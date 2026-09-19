@@ -8,10 +8,10 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-  title: "Reidho Satria",
-  ogImage: "assets/images/banner.webp",
+  title: "Vivek Bhandari",
+  ogImage: "assets/images/banner.png",
   subtitle:
-    "1337ophellia | CTF & InfoSec | GNU/Linux Enthusiast | Vice-President of @linuxuigm",
+    "Q.THE.VAR | Web Security & Bug Bounty | CTF Player | AI-Powered Web Security Testing & Automation",
   lang: "en", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
   themeColor: {
     hue: 45, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -19,7 +19,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true, // Display the banner image on the top of each post
-    src: "assets/images/banner.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: "assets/images/banner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
       enable: false, // Display the credit text of the banner image
@@ -53,24 +53,29 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-  avatar: "assets/images/avatar.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: "Reidho Satria",
-  bio: "1337ophellia | CTF & InfoSec | GNU/Linux Enthusiast | Vice-President of @linuxuigm",
+  avatar: "assets/images/avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  name: "Vivek Bhandari",
+  bio: "Q.THE.VAR | Web Security & Bug Bounty | CTF Player | AI-Powered Web Security Testing & Automation",
   links: [
     {
-      name: "Twitter",
-      icon: "fa6-brands:twitter",
-      url: "https://twitter.com/elliottophellia",
-    },
-    {
-      name: "Instagram",
-      icon: "fa6-brands:instagram",
-      url: "https://instagram.com/elliottophellia",
+      name: "X",
+      icon: "fa6-brands:x-twitter",
+      url: "https://x.com/viveksecurity",
     },
     {
       name: "GitHub",
       icon: "fa6-brands:github",
-      url: "https://github.com/elliottophellia",
+      url: "https://github.com/vivekbhandarisec",
+    },
+    {
+      name: "LinkedIn",
+      icon: "fa6-brands:linkedin",
+      url: "https://www.linkedin.com/in/vivekbhandarisec/",
+    },
+    {
+      name: "Instagram",
+      icon: "fa6-brands:instagram",
+      url: "https://www.instagram.com/qthevar?stkn=enc5YWY1Ym9oNGE=",
     },
   ],
 };
